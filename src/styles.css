@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400&display=swap');
+
+
+html{
+    border:solid lightgray ;
+    border-width: 0px 0px 0px 5px;
+}
+body{
+    min-height: 100%;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+header, main, footer{
+    padding: 1rem 2rem 1rem 2rem;
+}
+h1{
+    color: tomato;
+    font-size: 70px;
+    padding: 0;
+    margin: auto auto 0 auto;
+}
+h2.sub-heading{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+.nav-bar > ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav > ul{
+    display: flex;
+    justify-content: space-between;
+}
+header>nav>ul>li>a{
+    color: lightgrey;
+}
+footer>nav>ul>li>a{
+    color: tomato;
+}
+.blog-title{
+    font-size:50px;
+}
+
+article>a.continue-link{
+    color: tomato;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+}
+p::first-letter{
+    color: lightgray;
+    font-size: x-large;
+    float: left;
+    font-size: 6rem;
+    line-height: 0.65;
+    margin: 0.1em 0.1em 0.2em 0;
+}
+article{
+    border:solid lightgray ;
+    border-width: 0px 0px 1px 0px;
+    padding: 2rem;
+}
+article:last-of-type{
+    margin-bottom: 4rem;
+}
+#copyright{
+    color: lightgray;
+}
+time{
+    font-size:30px ;
+    color: lightgray;
+}
+time,article>h2,img{
+    margin:0px;
+}
